@@ -6,7 +6,7 @@ The test bench is made up of the following components.
 * generator: Generates transactions from test_cases, sends transactions to driver.
 * driver: Drives transactions onto DUT, through an interface.
 * monitor: Reads sets of input and output, on the DUT interface. Turns each set into a transaction, that is sent to the scoreboard. 
-* scoreboard: Determins and records test outcome by comparing transaction output agains expected output,from the test_cases class.
+* scoreboard: Calculates and records test outcome by comparing transaction output agains expected output,from the test_cases class.
 * environment: Initializes, and holds the generator,driver,monitor, and scoreboard.
 * test: Creates the environment, and facilitates the test.
 
