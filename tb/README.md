@@ -10,7 +10,11 @@ The test bench is made up of the following components.
 * test: Creates the environment, and facilitates the test.
 
 The test bench top level module is in the tb_top.sv file. 
+
 Test bench components can be found in the tb_components.sv file.
+
 Test cases are stored in the tests.txt file.
+
+Sim.do is a do file, that formats the waveform viewer in modelsim.
 
 ![diagram](https://user-images.githubusercontent.com/39601174/225278498-4019179f-e7b2-4aa0-93be-4ff18f08600e.png)
