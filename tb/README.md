@@ -13,4 +13,4 @@ The test bench top level module is in the tb_top.sv file.
 Test bench components can be found in the tb_components.sv file.
 Test cases are stored in the tests.txt file.
 
-![diagram](https://user-images.githubusercontent.com/39601174/225277600-7cae58cc-93cf-4c90-add7-8b9372413191.png)
+![diagram](https://user-images.githubusercontent.com/39601174/225278498-4019179f-e7b2-4aa0-93be-4ff18f08600e.png)
