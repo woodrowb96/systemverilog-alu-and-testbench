@@ -11,3 +11,5 @@ Alu design code can be found in the rtl_src folder.
 Test bench code can be found in the tb folder.
 
 vsim_comp and vsim_sim are shell scripts used to compile and simulate the sv files using modelsim.
+
+![diagram](https://user-images.githubusercontent.com/39601174/225287814-9f01c449-18e3-4dbf-9ad5-b4673b27e8d8.png)
