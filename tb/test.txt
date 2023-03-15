@@ -1,0 +1,74 @@
+{ radix: decimal } { alu_op: ALU_ADD , in_a: 5 ,in_b: 5 , result: 10 }
+{ msg: add_two_positive_numbers }
+
+{ radix: decimal } { alu_op: ALU_ADD , in_a: 5 ,in_b: -5 , result: 0 }
+{ msg: add_one_negative_one_positive_number }
+
+{ radix: decimal } { alu_op: ALU_ADD , in_a: -5 ,in_b: -5 , result: -10 }
+{ msg: add_two_negative_numbers }
+
+{ radix: decimal } { alu_op: ALU_ADD , in_a: 0 ,in_b: -5 , result: -5 }
+{ msg: add_zero_to_number }
+
+{ radix: decimal } { alu_op: ALU_SUB , in_a: 6355 ,in_b: 3000 , result: 3355 }
+{ msg: sub_two_positive }
+
+{ radix: decimal } { alu_op: ALU_SUB , in_a: 6000 ,in_b: 9000 , result: -3000 }
+{ msg: sub_two_positive_result_negative }
+
+{ radix: decimal } { alu_op: ALU_SUB , in_a: -5 ,in_b: -10 , result: 5 }
+{ msg: sub_negative_from_negative }
+
+{ radix: decimal } { alu_op: ALU_SUB , in_a: 5 ,in_b: -5 , result: 10 }
+{ msg: sub_negative_from_positive }
+
+{ radix: decimal } { alu_op: ALU_SUB , in_a: -6000 ,in_b: 9000 , result: -15000 }
+{ msg: sub_positive_from_negative}
+
+{ radix: binary } { alu_op: ALU_SHIFT_LL , in_a: 00101100 ,in_b: 1 , result: 01011000 }
+{ msg: shift_logical_left_leading_0s }
+
+{ radix: hex } { alu_op: ALU_SHIFT_LL , in_a: ffffffff ,in_b: 4 , result: fffffff0 }
+{ msg: shift_logical_left_leading_1s }
+
+{ radix: binary } { alu_op: ALU_SHIFT_RL , in_a: 00101100 ,in_b: 1 , result: 0010110 }
+{ msg: shift_logical_right_leading_0s }
+
+{ radix: hex } { alu_op: ALU_SHIFT_RL , in_a: fabff5ff ,in_b: 4 , result: 0fabff5f }
+{ msg: shift_logical_right_leading_1s }
+
+{ radix: binary } { alu_op: ALU_SHIFT_RA , in_a: 00101100 ,in_b: 1 , result: 0010110 }
+{ msg: shift_larithmetic_right_leading_0s }
+
+{ radix: hex } { alu_op: ALU_SHIFT_RA , in_a: fabff5ff ,in_b: 4 , result: ffabff5f }
+{ msg: shift_arithmetic_right_leading_1s }
+
+{ radix: decimal } { alu_op: ALU_SET_LT , in_a: 5 ,in_b: -5 , result: 0 }
+{ msg: set_less_than_false }
+
+{ radix: decimal } { alu_op: ALU_SET_LT , in_a: -10 ,in_b: -5 , result: 1 }
+{ msg: set_less_than_true }
+
+{ radix: decimal } { alu_op: ALU_SET_LTU , in_a: 5 ,in_b: -5 , result: 1 }
+{ msg: set_less_than_true }
+
+{ radix: decimal } { alu_op: ALU_SET_LTU , in_a: -555 ,in_b: 5 , result: 0 }
+{ msg: set_less_than_false }
+
+{ radix: hex } { alu_op: ALU_XOR , in_a: 0faf001f ,in_b: 0ff00f0f , result: 005f0f10 }
+{ msg: alu_xor }
+
+{ radix: hex } { alu_op: ALU_OR , in_a: 0faf001f ,in_b: 0ff00f0f , result: 0fff0f1f }
+{ msg: alu_or }
+
+{ radix: hex } { alu_op: ALU_AND , in_a: 0faf001f ,in_b: 0ff00f0f , result: 0fa0000f }
+{ msg: alu_and }
+
+{ radix: hex } { alu_op: ALU_PASS_A , in_a: 0faf001f ,in_b: 0ff00f0f , result: 0faf001f }
+{ msg: alu_pass_a }
+
+{ radix: hex } { alu_op: ALU_PASS_B , in_a: 0faf001f ,in_b: 0ff00f0f , result: 0ff00f0f }
+{ msg: alu_pass_b }
+
+{ radix: decimal } { alu_op: ALU_PC_INC , in_a: 16 ,in_b: 99 , result: 20 }
+{ msg: alu_pc_inc }
