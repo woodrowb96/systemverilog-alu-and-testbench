@@ -16,9 +16,3 @@ vsim_comp and vsim_sim are shell scripts used to compile and simulate the sv fil
 
 Waveform of testbench simulation:
 ![waveform](https://user-images.githubusercontent.com/39601174/225491935-8221ab63-8a1a-402a-a669-9e769d97f2b7.png)
-
-Testbench output: 
-
-
-
-[transcript.txt](https://github.com/woodrowb96/systemverilog-alu-and-testbench/files/10986015/transcript.txt)
